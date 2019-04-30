@@ -9,3 +9,4 @@ fd
 fg
 bg
 vb
+w

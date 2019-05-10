@@ -13,4 +13,4 @@ steps:
   - task: GitHubRelease@0
     displayName: 'GitHub release'
     inputs:
-      gitHubConnection: q1
+      githubConnection: q1

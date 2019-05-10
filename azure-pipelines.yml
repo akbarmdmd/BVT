@@ -10,7 +10,7 @@ pool:
   name: 'default'
 
 steps:
-  - task: GitHubRelease@0
-    displayName: 'GitHub Release'
-    inputs:
-      githubConnection: q1
+- task: GitHubRelease@0
+  displayName: 'GitHub Release'
+  inputs:
+    githubConnection: q1

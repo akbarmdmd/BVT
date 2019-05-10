@@ -14,4 +14,3 @@ steps:
   displayName: 'GitHub release (create)'
   inputs:
     gitHubConnection: q1
-

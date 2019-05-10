@@ -13,5 +13,5 @@ steps:
   - task: DownloadGitHubRelease@0
     displayName: 'Download GitHub Release'
     inputs:
-      connection: 'q1'
+      conNection: 'q1'
       userRepository: '$(Build.Repository.Name)'

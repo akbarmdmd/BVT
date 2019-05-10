@@ -11,6 +11,6 @@ pool:
 
 steps:
 - task: GitHubRelease@0
-  displayName: 'GitHub release (create)'
+  displayName: 'GitHub release'
   inputs:
     githubConnection: q1

@@ -10,7 +10,8 @@ pool:
   name: 'default'
 
 steps:
-  - task: GitHubRelease@0
-    displayName: 'GitHub release'
+  - task: DownloadGitHubRelease@0
+    displayName: 'Download GitHub Release'
     inputs:
-      githubConnection: q1
+      connection: 'q1'
+      userRepository: '$(Build.Repository.Name)'
